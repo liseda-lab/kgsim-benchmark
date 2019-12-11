@@ -2,6 +2,13 @@
 
 We  present  a  collection  of  21  benchmark  data  sets  that  aim  at  circumventing the difficulties in building benchmarks for large biomedical knowledge graphs by exploiting proxies for biomedical entity similarity. An overview is shown below.
 
+| Species         | Proteins | Pairs | Proteins | Pairs |
+|-----------------|----------|-------|----------|-------|
+| D. melanogaster | 481      | 397   | 335      | 270   |
+| E. coli         | 371      | 738   | 264      | 428   |
+| H. sapiens      | 7644     | 44677 | 7149     | 42204 |
+| S. cerevisae    | 3874     | 34772 | 2959     | 21577 |
+| All             | 12370    | 80584 | 10707    | 64479 |
 
 ## Prerequisites
 
