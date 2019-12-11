@@ -2,6 +2,8 @@
 
 We  present  a  collection  of  21  benchmark  data  sets  that  aim  at  circumventing the difficulties in building benchmarks for large biomedical knowledge graphs by exploiting proxies for biomedical entity similarity. An overview is shown below.
 
+Protein-protein interactions data sets
+
 | Species         | Proteins | Pairs | Proteins | Pairs |
 |-----------------|----------|-------|----------|-------|
 | D. melanogaster | 481      | 397   | 335      | 270   |
@@ -9,6 +11,22 @@ We  present  a  collection  of  21  benchmark  data  sets  that  aim  at  circum
 | H. sapiens      | 7644     | 44677 | 7149     | 42204 |
 | S. cerevisae    | 3874     | 34772 | 2959     | 21577 |
 | All             | 12370    | 80584 | 10707    | 64479 |
+
+Molecular function data sets
+
+| Species         | Proteins | Pairs  | Proteins | Pairs  |
+|-----------------|----------|--------|----------|--------|
+| D. melanogaster | 7494     | 53797  | 5810     | 52460  |
+| E. coli         | 1250     | 4623   | 748      | 1813   |
+| H. sapiens      | 13604    | 60176  | 12487    | 60163  |
+| S. cerevisae    | 4783     | 42192  | 3660     | 30747  |
+| All             | 27131    | 158512 | 22705    | 142736 |
+
+Genes-phenotypes data set
+
+| Genes | Pairs |
+|-------|-------|
+| 2026  | 1200  |
 
 ## Prerequisites
 
