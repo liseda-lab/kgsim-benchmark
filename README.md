@@ -2,30 +2,60 @@
 
 We  present  a  collection  of  21  benchmark  data  sets  that  aim  at  circumventing the difficulties in building benchmarks for large biomedical knowledge graphs by exploiting proxies for biomedical entity similarity. An overview is shown below.
 
+### Protein data sets
+We created two different types of data sets according to the following
+criteria:
+- _One aspect_: The proteins must have at least one annotation in each GO aspect, and in at least one aspect there should be at least one leaf-class annotation.
+- _All aspects_: The proteins must have at least one annotation in each GO aspect, and in each aspect there should be at least one leaf-class annotation.
+
 Protein-protein interactions data sets
 
-| Species         | Proteins | Pairs | Proteins | Pairs |
-|-----------------|----------|-------|----------|-------|
-| D. melanogaster | 481      | 397   | 335      | 270   |
-| E. coli         | 371      | 738   | 264      | 428   |
-| H. sapiens      | 7644     | 44677 | 7149     | 42204 |
-| S. cerevisae    | 3874     | 34772 | 2959     | 21577 |
-| All             | 12370    | 80584 | 10707    | 64479 |
+_One aspect_
+
+| Species         | Proteins | Pairs |
+|:---------------:|:--------:|:-----:|
+| D. melanogaster | 481      | 397   |
+| E. coli         | 371      | 738   |
+| H. sapiens      | 7644     | 44677 |
+| S. cerevisae    | 3874     | 34772 |
+| All             | 12370    | 80584 |
+
+_All aspects_
+
+| Species         | Proteins | Pairs |
+|:---------------:|:--------:|:-----:|
+| D. melanogaster | 335      | 270   |
+| E. coli         | 264      | 428   |
+| H. sapiens      | 7149     | 42204 |
+| S. cerevisae    | 2959     | 21577 |
+| All             | 10707    | 64479 |
 
 Molecular function data sets
 
-| Species         | Proteins | Pairs  | Proteins | Pairs  |
-|-----------------|----------|--------|----------|--------|
-| D. melanogaster | 7494     | 53797  | 5810     | 52460  |
-| E. coli         | 1250     | 4623   | 748      | 1813   |
-| H. sapiens      | 13604    | 60176  | 12487    | 60163  |
-| S. cerevisae    | 4783     | 42192  | 3660     | 30747  |
-| All             | 27131    | 158512 | 22705    | 142736 |
+_One aspect_
 
-Genes-phenotypes data set
+| Species         | Proteins | Pairs  |
+|:---------------:|:--------:|:------:|
+| D. melanogaster | 7494     | 53797  |
+| E. coli         | 1250     | 4623   | 
+| H. sapiens      | 13604    | 60176  |
+| S. cerevisae    | 4783     | 42192  |
+| All             | 27131    | 158512 |
+
+_All aspects_
+
+| Species         | Proteins | Pairs  |
+|:---------------:|:--------:|:------:|
+| D. melanogaster | 5810     | 52460  |
+| E. coli         | 748      | 1813   |
+| H. sapiens      | 12487    | 60163  |
+| S. cerevisae    | 3660     | 30747  |
+| All             | 22705    | 142736 |
+
+### Genes-phenotypes data set
 
 | Genes | Pairs |
-|-------|-------|
+|:-----:|:-----:|
 | 2026  | 1200  |
 
 ## Prerequisites
