@@ -89,6 +89,7 @@ The steps to perform the benchmark evaluation for a new KG-based semantic simila
   Additionally, the protein-protein interactions data sets can be used to evaluate the power of semantic similarity scores in predicting protein-protein interactions.  
 
 * Upload the novel semantic similarity results to a data sharing platform, to support future direct comparisons.
+
   The tables below provide an example of how to publish the results after using a protein-protein interaction data set to evaluate a novel semantic similarity measure.  
 
 _Table 1_: Pearson Correlation coefficient between similarity proxies and semantic similarity measures.
@@ -97,6 +98,8 @@ _Table 1_: Pearson Correlation coefficient between similarity proxies and semant
 |:-------------------------:|:---------------:|:------:|:--------:|:---------:|:-------:|
 |Sequence                   |0.215935         |0.199146|0.239537  |0.218870   | 0.11128 |
 |Protein-protein interaction|0.625845	        |0.912552|0.915274  |0.996805	| 0.58274 |
+
+Note that Pearson Correlation Coefficient scores have already been calculated for each data set's representative semantic similarity scores and similarity proxies. Find them [here](https://github.com/liseda-lab/kgsim-benchmark/blob/master) 
 
 _Table 2_: Predictive scores of the novel semantic similarity regarding protein-protein interaction. Threshold: minimum similarity for 2 proteins to be considered similar and to interact. Precision, Recall and F1 score: Performance evaluation metrics of the prediction.
 
