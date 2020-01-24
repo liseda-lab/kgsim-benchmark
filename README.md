@@ -98,7 +98,8 @@ The steps to perform the benchmark evaluation for a new KG-based semantic simila
 |Sequence                   |0.215935         |0.199146|0.239537  |0.218870   | 0.11128 |
 |Protein-protein interaction|0.625845	        |0.912552|0.915274  |0.996805	| 0.58274 |
 
-_Table 2_: Predictive scores of the novel semantic similarity regarding protein-protein interaction. Threshold: minimum similarity for 2 proteins to be considered similar and to interact. Precision, Recall and F1 score: Performance evaluation metrics of the prediction.
+  _Table 2_: Predictive scores of the novel semantic similarity regarding protein-protein interaction. Threshold: minimum similarity for 2 proteins to be considered similar and to interact. Precision, Recall and F1 score: Performance evaluation metrics of the prediction.
+
 | Threshold| Precision| Recall |F1 score|
 |:--------:|:--------:|:------:|:------:|
 | 0.5      | 0.6      | 0.45   | 0.514  |
