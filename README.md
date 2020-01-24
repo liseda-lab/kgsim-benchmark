@@ -92,10 +92,10 @@ The steps to perform the benchmark evaluation for a new KG-based semantic simila
   The tables below provide an example of how to publish the results after using a protein-protein interaction data set to evaluate a novel semantic similarity measure.
 
   _Table 1_: Pearson Correlation coefficient between similarity proxies and semantic similarity measures.
-  | Similarity proxy          | BMA Resnik      |BMA Seco|GIC Resnik|GIC Seco   |New SSM  |
-  |:-------------------------:|:---------------:|:------:|:--------:|:---------:|:-------:|
-  |Sequence                   |0.215935         |0.199146|0.239537  |0.218870   | 0.11128 |
-  |Protein-protein interaction|0.625845	        |0.912552|0.915274  |0.996805	| 0.58274 |
+| Similarity proxy          | BMA Resnik      |BMA Seco|GIC Resnik|GIC Seco   |New SSM  |
+|:-------------------------:|:---------------:|:------:|:--------:|:---------:|:-------:|
+|Sequence                   |0.215935         |0.199146|0.239537  |0.218870   | 0.11128 |
+|Protein-protein interaction|0.625845	        |0.912552|0.915274  |0.996805	| 0.58274 |
 
   _Table 2_: Predictive scores of the novel semantic similarity regarding protein-protein interaction. Threshold: minimum similarity for 2 proteins to be considered similar and to interact. Precision, Recall and F1 score: Performance evaluation metrics of the prediction.
   | Threshold| Precision| Recall |F1 score|
