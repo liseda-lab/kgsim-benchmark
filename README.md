@@ -55,9 +55,9 @@ _All aspects_
 
 Data sets file names follow this structure **TYPE_SPECIESN.csv**
 where:
-* TYPE: Type of data set- MF for Molecular Function data sets and PPI for Protein-Protein Interaction data sets;
-* SPECIES: Protein species in the data set- DM (_D. melanogaster_), EC (_E. Coli_), HS (_H. sapiens_), SC (_S. cerevisae_) and ALL (combining all four species); 
-* N: annotation completness of the proteins in the data set-  1 for _One aspect_ proteins and 3 for _All aspects_ proteins.
+* **TYPE**: Type of data set- MF for Molecular Function data sets and PPI for Protein-Protein Interaction data sets;
+* **SPECIES**: Protein species in the data set- DM (_D. melanogaster_), EC (_E. Coli_), HS (_H. sapiens_), SC (_S. cerevisae_) and ALL (combining all four species); 
+* **N**: annotation completness of the proteins in the data set-  1 for _One aspect_ proteins and 3 for _All aspects_ proteins.
 
 ### Genes-phenotypes data set
 
@@ -89,20 +89,21 @@ The steps to perform the benchmark evaluation for a new KG-based semantic simila
   Additionally, the protein-protein interactions data sets can be used to evaluate the power of semantic similarity scores in predicting protein-protein interactions.  
 
 * Upload the novel semantic similarity results to a data sharing platform, to support future direct comparisons.
-  The tables below provide an example of how to publish the results after using a protein-protein interaction data set to evaluate a novel semantic similarity measure.
+  The tables below provide an example of how to publish the results after using a protein-protein interaction data set to evaluate a novel semantic similarity measure.  
 
   _Table 1_: Pearson Correlation coefficient between similarity proxies and semantic similarity measures.
+  
 | Similarity proxy          | BMA Resnik      |BMA Seco|GIC Resnik|GIC Seco   |New SSM  |
 |:-------------------------:|:---------------:|:------:|:--------:|:---------:|:-------:|
 |Sequence                   |0.215935         |0.199146|0.239537  |0.218870   | 0.11128 |
 |Protein-protein interaction|0.625845	        |0.912552|0.915274  |0.996805	| 0.58274 |
 
-  _Table 2_: Predictive scores of the novel semantic similarity regarding protein-protein interaction. Threshold: minimum similarity for 2 proteins to be considered similar and to interact. Precision, Recall and F1 score: Performance evaluation metrics of the prediction.
-  | Threshold| Precision| Recall |F1 score|
-  |:--------:|:--------:|:------:|:------:|
-  | 0.5      | 0.6      | 0.45   | 0.514  |
-  | 0.6      |0.7       |0.58    |0.634   |
-  | 0.7      |0.7       |0.5     |0.59    | 
+_Table 2_: Predictive scores of the novel semantic similarity regarding protein-protein interaction. Threshold: minimum similarity for 2 proteins to be considered similar and to interact. Precision, Recall and F1 score: Performance evaluation metrics of the prediction.
+| Threshold| Precision| Recall |F1 score|
+|:--------:|:--------:|:------:|:------:|
+| 0.5      | 0.6      | 0.45   | 0.514  |
+| 0.6      |0.7       |0.58    |0.634   |
+| 0.7      |0.7       |0.5     |0.59    | 
   
 
 ## Authors
