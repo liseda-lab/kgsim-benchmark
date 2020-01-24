@@ -69,9 +69,9 @@ where:
 
 To allow a direct comparison with the pre-computed semantic similarity measures, as well as facilitate the direct comparison between different works without needing to implement and/or compute the results, the KG data below should be downloaded and used.
 
-* [Gene Ontology](https://github.com/liseda-lab/kgsim-benchmark/blob/master/GO/go-basic.zip) (available in OBO and OWL format)
+* [Gene Ontology](https://github.com/liseda-lab/kgsim-benchmark/blob/master/GO) (available in OBO and OWL format)
 * [Gene Ontology Annotations](https://github.com/liseda-lab/kgsim-benchmark/tree/master/GO) 
-* [Human Phenotype Ontology](https://github.com/liseda-lab/kgsim-benchmark/blob/master/HPO/hp.obo) (available in OBO and OWL format)
+* [Human Phenotype Ontology](https://github.com/liseda-lab/kgsim-benchmark/blob/master/HPO) (available in OBO and OWL format)
 * [Human Phenotype Ontology Annotations](https://github.com/liseda-lab/kgsim-benchmark/blob/master/HPO/ALL_SOURCES_ALL_FREQUENCIES_genes_to_phenotype.txt) 
 
 
@@ -91,14 +91,14 @@ The steps to perform the benchmark evaluation for a new KG-based semantic simila
 * Upload the novel semantic similarity results to a data sharing platform, to support future direct comparisons.
   The tables below provide an example of how to publish the results after using a protein-protein interaction data set to evaluate a novel semantic similarity measure.  
 
-  _Table 1_: Pearson Correlation coefficient between similarity proxies and semantic similarity measures.
+_Table 1_: Pearson Correlation coefficient between similarity proxies and semantic similarity measures.
   
 | Similarity proxy          | BMA Resnik      |BMA Seco|GIC Resnik|GIC Seco   |New SSM  |
 |:-------------------------:|:---------------:|:------:|:--------:|:---------:|:-------:|
 |Sequence                   |0.215935         |0.199146|0.239537  |0.218870   | 0.11128 |
 |Protein-protein interaction|0.625845	        |0.912552|0.915274  |0.996805	| 0.58274 |
 
-  _Table 2_: Predictive scores of the novel semantic similarity regarding protein-protein interaction. Threshold: minimum similarity for 2 proteins to be considered similar and to interact. Precision, Recall and F1 score: Performance evaluation metrics of the prediction.
+_Table 2_: Predictive scores of the novel semantic similarity regarding protein-protein interaction. Threshold: minimum similarity for 2 proteins to be considered similar and to interact. Precision, Recall and F1 score: Performance evaluation metrics of the prediction.
 
 | Threshold| Precision| Recall |F1 score|
 |:--------:|:--------:|:------:|:------:|
