@@ -88,7 +88,7 @@ The steps to perform the benchmark evaluation for a new KG-based semantic simila
   These data sets support evaluation through simple correlation calculation between the novel measures and representative semantic similarity scores and proxy similarity values.  
   Additionally, the protein-protein interactions data sets can be used to evaluate the power of semantic similarity scores in predicting protein-protein interactions.  
 
-* Upload the novel semantic similarity results to a data sharing platform, to support future direct comparisons.
+* Upload the novel semantic similarity results to a data sharing platform, to support future direct comparisons, by forking this repository.
 
   The tables below provide an example of how to publish the results after using a protein-protein interaction data set to evaluate a novel semantic similarity measure.  
 
