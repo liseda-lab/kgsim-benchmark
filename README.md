@@ -124,12 +124,3 @@ See the [LICENSE.md](https://github.com/liseda-lab/kgsim-benchmark/blob/master/L
 ## Acknowledgments
 
 This project was funded by the Portuguese FCT through the LASIGE Research Unit (UID/CEC/00408/2019), and also by the SMILAX project (PTDC/EEI-ESS/4633/2014).
-
-
-## License
-See the [LICENSE.md](https://github.com/liseda-lab/kgsim-benchmark/blob/master/LICENSE.md/LICENSE.md) file for details.
-
-
-## Acknowledgments
-
-This project was funded by the Portuguese FCT through the LASIGE Research Unit (UID/CEC/00408/2019), and also by the SMILAX project (PTDC/EEI-ESS/4633/2014).
