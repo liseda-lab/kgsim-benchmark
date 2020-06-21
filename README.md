@@ -35,9 +35,9 @@ _One aspect_
 
 | Species         | Proteins | Pairs  |
 |:---------------:|:--------:|:------:|
-| D. melanogaster | 7494     | 53797  |
+| D. melanogaster | 7494     | 53795  |
 | E. coli         | 1250     | 4623   | 
-| H. sapiens      | 13604    | 60176  |
+| H. sapiens      | 13604    | 57906  |
 | S. cerevisae    | 4783     | 42192  |
 | All             | 27131    | 158512 |
 
@@ -45,9 +45,9 @@ _All aspects_
 
 | Species         | Proteins | Pairs  |
 |:---------------:|:--------:|:------:|
-| D. melanogaster | 5810     | 52460  |
+| D. melanogaster | 5810     | 52457  |
 | E. coli         | 748      | 1813   |
-| H. sapiens      | 12487    | 60163  |
+| H. sapiens      | 12487    | 57722  |
 | S. cerevisae    | 3660     | 30747  |
 | All             | 22705    | 142736 |
 
