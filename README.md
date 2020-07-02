@@ -86,7 +86,8 @@ The steps to perform the benchmark evaluation for a new KG-based semantic simila
 * Compute evaluation metrics against proxy similarity values and representative semantic similarity scores;
 
   These data sets support evaluation through simple correlation calculation between the novel measures and representative semantic similarity scores and proxy similarity values.  
-  Additionally, the protein-protein interactions data sets can be used to evaluate the power of semantic similarity scores in predicting protein-protein interactions.  
+  Additionally, the protein-protein interactions data sets can be used to evaluate the power of semantic similarity scores in predicting protein-protein interactions.
+  Both evaluation techniques are supportedd by the [Jupyter Notebook](https://github.com/liseda-lab/kgsim-benchmark/tree/master/Jupyter%20Notebook) available in this repository.
 
 * Upload the novel semantic similarity results to a data sharing platform, to support future direct comparisons, by forking this repository.
 
