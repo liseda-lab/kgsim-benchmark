@@ -100,7 +100,7 @@ _Table 1_: Pearson Correlation coefficient between similarity proxies and semant
 |Sequence                   |0.215935         |0.199146|0.239537  |0.218870   | 0.11128 |
 |Protein-protein interaction|0.625845	        |0.912552|0.915274  |0.996805	| 0.58274 |
 
-Note that Pearson Correlation Coefficient scores have already been calculated for each data set's representative semantic similarity scores and similarity proxies. Find them [here](https://github.com/liseda-lab/kgsim-benchmark/blob/master) 
+Note that Pearson Correlation Coefficient scores have already been calculated for each data set's representative semantic similarity scores and similarity proxies. Find them [here](https://github.com/liseda-lab/kgsim-benchmark/master) 
 
 _Table 2_: Predictive scores of the novel semantic similarity regarding protein-protein interaction. Threshold: minimum similarity for 2 proteins to be considered similar and to interact. Precision, Recall and F1 score: Performance evaluation metrics of the prediction.
 
