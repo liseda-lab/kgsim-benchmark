@@ -35,21 +35,21 @@ _One aspect_
 
 | Species         | Proteins | Pairs  |
 |:---------------:|:--------:|:------:|
-| D. melanogaster | 7494     | 53795  |
-| E. coli         | 1250     | 4623   | 
-| H. sapiens      | 13604    | 57906  |
-| S. cerevisae    | 4783     | 42192  |
-| All             | 27131    | 158512 |
+| D. melanogaster | 7470     | 31350  |
+| E. coli         | 1231     | 3363   | 
+| H. sapiens      | 13246    | 31350  |
+| S. cerevisae    | 4782     | 38166  |
+| All             | 26729    | 104229 |
 
 _All aspects_
 
 | Species         | Proteins | Pairs  |
 |:---------------:|:--------:|:------:|
-| D. melanogaster | 5810     | 52457  |
-| E. coli         | 748      | 1813   |
-| H. sapiens      | 12487    | 57722  |
-| S. cerevisae    | 3660     | 30747  |
-| All             | 22705    | 142736 |
+| D. melanogaster | 5300     | 17682  |
+| E. coli         | 724      | 1332   |
+| H. sapiens      | 11666    | 25527  |
+| S. cerevisae    | 3660     | 29265  |
+| All             | 21350    | 73806  |
 
 #### Protein data sets nomenclature
 
