@@ -7,29 +7,29 @@ We created two different types of data sets according to the following criteria:
 - _One aspect_: The proteins must have at least one annotation in each GO aspect, and in at least one aspect there should be at least one leaf-class annotation.
 - _All aspects_: The proteins must have at least one annotation in each GO aspect, and in each aspect there should be at least one leaf-class annotation.
 
-Protein-protein interactions data sets
+**Protein-protein interactions data sets**
 
 _One aspect_
 
 | Species         | Proteins | Pairs |
 |:---------------:|:--------:|:-----:|
-| D. melanogaster | 481      | 397   |
-| E. coli         | 371      | 738   |
-| H. sapiens      | 7644     | 44677 |
-| S. cerevisae    | 3874     | 34772 |
-| All             | 12370    | 80584 |
+| D. melanogaster | 455      | 364   |
+| E. coli         | 371      | 734   |
+| H. sapiens      | 7093     | 30826 |
+| S. cerevisae    | 3776     | 27898 |
+| All             | 11695    | 59822 |
 
 _All aspects_
 
 | Species         | Proteins | Pairs |
 |:---------------:|:--------:|:-----:|
-| D. melanogaster | 335      | 270   |
-| E. coli         | 264      | 428   |
-| H. sapiens      | 7149     | 42204 |
-| S. cerevisae    | 2959     | 21577 |
-| All             | 10707    | 64479 |
+| D. melanogaster | 287      | 200   |
+| E. coli         | 263      | 420   |
+| H. sapiens      | 6718     | 29672 |
+| S. cerevisae    | 2888     | 16904 |
+| All             | 10156    | 47196 |
 
-Molecular function data sets
+**Molecular function data sets**
 
 _One aspect_
 
