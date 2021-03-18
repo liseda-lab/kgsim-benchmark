@@ -1,6 +1,6 @@
 # Benchmark data sets for Knowledge Graph-based Similarity
 
-We  present  a  collection  of  21  benchmark  data  sets  that  aim  at  circumventing the difficulties in building benchmarks for large biomedical knowledge graphs by exploiting proxies for biomedical entity similarity. An overview is shown below.
+We  present  a  collection  of  21  benchmark  data  sets for evaluating semantic similarity measures for large biomedical knowledge graphs and ontologies. These datasets aim  at  circumventing the difficulties in building benchmarks for large biomedical knowledge graphs by exploiting proxies for biomedical entity similarity. An overview is shown below.
 
 ### Protein data sets
 We created two different types of data sets according to the following criteria:
