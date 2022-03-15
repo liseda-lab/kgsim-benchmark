@@ -4,8 +4,8 @@ We  present  a  collection  of  21  benchmark  data  sets for evaluating semanti
 
 ### Protein data sets
 We created two different types of data sets according to the following criteria:
-- _One aspect_: The proteins must have at least one annotation in each GO aspect, and in at least one aspect there should be at least one leaf-class annotation.
-- _All aspects_: The proteins must have at least one annotation in each GO aspect, and in each aspect there should be at least one leaf-class annotation.
+- _One aspect_: The proteins must have at least one annotation in one GO aspect.
+- _All aspects_: The proteins must have at least one annotation in each GO aspect.
 
 **Protein-protein interactions data sets**
 
